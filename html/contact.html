@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Portfolio - Contact
+        </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="shared.css">
+        <link rel="stylesheet" href="contact.css">
+    </head>
+    <body>
+        <!-- Header section -->
+        <header class="main-header">
+            <div class="container">
+            <div class="main-header__brand">
+                <a href="index.html">
+                    <img src="./logo_me.png" alt="Logo">
+                </a>
+            </div>
+            <nav class="main-navigation">
+                <ul class="main-navigation__items">
+                    <li class="main-navigation__item">
+                        <a href="./index.html">Asosiy</a>
+                    </li>
+                    <li class="main-navigation__item active">
+                        <a href="./contact.html">Bog`lanish</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        </header>
+        <div class="container">
+            <section id="main-section"></section>
+        </div>
+        <!-- /Header section -->
+        <div class="container">
+            <section class="contact">
+                <div class="section-title">
+                    men bilan bog'laning
+                </div>
+                <form action="/server.php" method="GET">
+                    <textarea rows="10"  placeholder="Xabaringizni kiriting" name="massage"></textarea>
+                    <div class="half-flex">
+                        <div class="contact__firsname">
+                            <input type="text" placeholder="Ismingizni kirirting" name="firsname">
+                        </div>
+                        <div class="contact__email">
+                            <input type="email" placeholder="Emailingizni kiriting" name="email">
+                        </div>
+                    </div>  
+                    <input type="text" placeholder="Xat mazmuni" name="subject">
+                    <button class="button contact__send" type="sumbit">Xabar jo`natish</button>
+                </form>
+            </section>
+        </div>
+
+        <!-- Footer section -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__brand">
+                    <img src="./logo_me.png" alt="Logo">
+                </div>
+                <nav class="footer__navigation">
+                    <ul class="footer__navigation-items">
+                        <li class="footer__navigation-item">
+                            <a href="./index.html">Asosiy</a>
+                        </li>
+                        <li class="footer__navigation-item">
+                            <a href="./index.html">Men haqimda</a>
+                        </li>
+                        <li class="footer__navigation-item">
+                            <a href="./index.html">Xizmatlar</a>
+                        </li>
+                        <li class="footer__navigation-item">
+                            <a href="./index.html">Mijozlar</a>
+                        </li>
+                        <li class="footer__navigation-item">
+                            <a href="./index.html">Portfolio</a>
+                        </li>
+                        <li class="footer__navigation-item">
+                            <a href="./index.html">Blog</a>
+                        </li>
+                        <li class="footer__navigation-item">
+                            <a href="./index.html">Media</a>
+                        </li>
+                        <li class="footer__navigation-item">
+                            <a href="./index.html">Sheriklar</a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="footer__socials">
+                    <li class="footer__social">
+                        <a href="https://t.me/Javohir_Toxtasinov" target="_blank">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                    </li>
+                    <li class="footer__social">
+                        <a href="https://instagram.com/javohirveb" target="_blank"> 
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="footer__social">
+                        <a href="https://www.youtube.com/channel/UCNDuwCIhVAWk0gHLneR2qtQ" target="_blank">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+        <!-- /Footer section -->
+    </body>
+</html>
