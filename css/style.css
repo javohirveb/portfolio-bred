@@ -52,19 +52,19 @@
     transition: 0.2s ease;
 }
 
-.fa-telegram:hover {
+.telegram:hover {
     color: rgb(76, 76, 247);
 }
 
-.fa-instagram:hover {
+.instagram:hover {
     color: #ed239f;
 }
 
-.fa-youtube:hover {
+.youtube:hover {
     color: red;
 }
 
-.fa-github:hover {
+.github:hover {
     color: #24292F;
 }
 
